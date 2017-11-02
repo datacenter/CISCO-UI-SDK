@@ -1,0 +1,31 @@
+.error-message{
+  color: #a51212;
+}
+
+.sdk-txt-blue{
+    color: blue !important;
+}
+.sdk-txt-green{
+    color: green !important;
+}
+.sdk-txt-amber{
+    color: amber !important;
+}
+.sdk-txt-grey{
+    color: grey !important;
+}
+
+
+
+.sdk-bg-blue{
+    background-color: blue !important;
+}
+.sdk-bg-green{
+    background-color: green !important;
+}
+.sdk-bg-amber{
+    background-color: amber !important;
+}
+.sdk-bg-grey{
+    background-color: grey !important;
+}

@@ -1,0 +1,8 @@
+should be a react application
+should include semantic style sheet included in react application
+
+=========================================================================
+
+#1. Add an attribute "aci-sdk-app" (set value equals to config file to load on initializatoin) to any html tag(div) in your html (index.html) file
+#2. make the configuration file( app-config.js ) file available in "../config" (relavtive path wrt to lib aci-sdk.js file)  folder
+#3. load/import aci-sdk js file into the application

@@ -1,0 +1,54 @@
+.cisco-form.ui.form input[type=text], .cisco-form.ui.form input[type=password]{
+	margin-bottom: 10px !important;
+	font-size: 12px !important;
+	border: 0px !important;
+	border-radius: 0px !important;
+	border-bottom: 1px solid rgba(34,36,38,.35) !important;
+	padding: .67857143em  !important;
+}
+.cisco-form.ui.checkbox .box:before, .cisco-form.ui.checkbox label:before{
+	border-radius: 0px !important;
+	border-color: #049fd9 !important;
+}
+.cisco-form.ui.checkbox input:checked~.box:after, .cisco-form.ui.checkbox input:checked~label:after{
+	color: #049fd9 !important;
+}
+.cisco-form.ui.blue.button, .cisco-form.ui.blue.buttons .button{
+	background-color: #049fd9 !important;
+}
+.cisco-form.ui.form .field>label{
+	 color: #676767 !important;
+	 font-weight: normal !important;
+}
+.cisco-form.ui.checkbox .box, .ui.checkbox label{
+	font-size: 12px !important;
+}
+.cisco-form .ui.selection.dropdown{
+	box-shadow: 0 -1px 0 0 #c6c7ca inset !important;
+	color: #58585b;
+	font-size: 12px;
+	letter-spacing: 0.7px;
+    border: 0px !important;
+    border-radius: 0px !important;
+} 
+
+.cisco-form .ui.selection.dropdown .menu>.item{
+	font-size: 12px;
+	letter-spacing: 0.8px;
+}
+.cisco-form .ui.dropdown .menu .selected.item,.cisco-form  .ui.dropdown.selected{
+	 background: #fbfbfb !important;
+}
+.cisco-form .ui.selection.active.dropdown,.cisco-form .ui.selection.active.dropdown .menu{
+	border-color: #dfdfdf !important;
+	border-radius: 0px;
+}
+.cisco-form .ui.selection.dropdown{
+  padding: .78571429em 0px .78571429em 5px !important;
+}
+.cisco-form .ui.toggle.checkbox input:checked~.box:before,.cisco-form  .ui.toggle.checkbox input:checked~label:before {
+    background-color: #049fd9!important;
+}
+.cisco-form .ui.toggle.checkbox .box:before,.cisco-form  .ui.toggle.checkbox label:before{
+	background: rgba(0,0,0,.2) !important;
+}

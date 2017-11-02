@@ -1,0 +1,17 @@
+.ui.grey.table{
+	border-top:1px solid rgba(34,36,38,.1);
+}
+.panelHeader{
+	padding: 10px 0px;
+}
+.ui.modal>.close{
+	top: 0.8rem;
+    right: 0.8rem;
+    color: #262626;
+}
+.pull-right{
+	float: right;
+}
+.marginBtm10{
+	margin-bottom: 10px !important;
+}

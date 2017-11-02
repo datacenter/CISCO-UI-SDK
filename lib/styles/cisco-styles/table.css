@@ -1,0 +1,94 @@
+.cisco-table .table thead tr{
+	background: #f2f2f2;
+}
+.cisco-table .table th,.cisco-table  .table td{
+	height: 40px;
+}
+.cisco-table .public_Scrollbar_faceActive:after{
+	background: #dbdbdb;
+}
+.cisco-table .ui.sortable.table thead th.descending:after{
+	 content: '\f107';
+	 font-size: 14px;
+	 color: #58585b !important;
+}
+.cisco-table .ui.sortable.table thead th.ascending:after {
+    content: '\f106';
+    font-size: 14px;
+    color: #58585b !important;
+} 
+.cisco-table .table{
+	border-radius: 0px !important;
+	margin-top: 0px !important;
+	border-left: 0px !important;
+	font-size: 0.9rem !important;
+}
+.cisco-table .table th{
+	background: none !important;
+	color: #58585b !important;
+	font-size: 0.9rem;
+	font-weight: normal;
+}
+.cisco-table .table th.no-sorting {
+  cursor: default !important;
+}
+.cisco-table .table th.sortable {
+  cursor: pointer !important;
+}
+.cisco-table .table tr:nth-child(even){
+	background: #f2f2f2;
+}
+.cisco-table .table > tbody > tr:hover td:first-child {
+    border-left: 4px solid #049fd9 !important;
+    background: none !important;
+}
+.cisco-table .ui.selectable.table tbody tr:hover,.cisco-table  .ui.table tbody tr td.selectable:hover{
+	background: transparent !important
+}
+.cisco-table .ui.table{
+	border-right: 0px;
+}
+.cisco-table .table tr td:first-child,.cisco-table  .table tr th:first-child {
+    border-left: 4px solid transparent !important;
+}
+.cisco-table .ui.menu{
+	min-height: 1.857143em !important;
+}
+.cisco-table .ui.pagination.menu .item{
+	font-size: 11px;
+}
+.cisco-table .ui.selection.dropdown{
+	box-shadow: 0 -1px 0 0 #c6c7ca inset !important;
+	color: #58585b;
+	font-size: 12px;
+	letter-spacing: 0.7px;
+    border: 0px !important;
+    border-radius: 0px !important;
+} 
+
+.cisco-table .ui.selection.dropdown .menu>.item{
+	font-size: 12px;
+	letter-spacing: 0.8px;
+}
+.cisco-table .ui.dropdown .menu .selected.item, .ui.dropdown.selected{
+	 background: #fbfbfb !important;
+}
+.cisco-table .ui.selection.active.dropdown, .ui.selection.active.dropdown .menu{
+	border-color: #dfdfdf !important;
+	border-radius: 0px;
+}
+.cisco-table .ui.table thead tr:first-child>th:first-child,.cisco-table .ui.table thead tr:first-child>th:last-child{
+	border-radius: 0px !important;
+}
+.cisco-table .ui.selection.dropdown{
+  padding: .78571429em 0px .78571429em 5px !important;
+}
+.cisco-table .ui.toggle.checkbox input:checked~.box:before,.cisco-table  .ui.toggle.checkbox input:checked~label:before {
+    background-color: #049fd9!important;
+}
+.cisco-table .ui.toggle.checkbox .box:before,.cisco-table  .ui.toggle.checkbox label:before{
+	background: rgba(0,0,0,.2) !important;
+}
+.outerPanel.cisco-table .table{
+	border-right: 0px !important;
+}

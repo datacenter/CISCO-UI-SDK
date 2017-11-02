@@ -1,0 +1,17 @@
+.status-component{
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  opacity: 0.75;
+  font-size: 12px;
+  min-width: 220px;
+  text-align: left;
+  top: 5px;
+  right: 5px;
+}
+
+.loader-icon{
+  float: right;
+}

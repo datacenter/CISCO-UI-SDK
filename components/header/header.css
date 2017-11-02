@@ -1,0 +1,11 @@
+.header{
+  /*height: 50px;*/
+  overflow: hidden;
+  padding: 0px 15px;
+}
+
+.infoblox-logo{
+  position: relative;
+  width: 17%;
+  min-width: 150px;
+}

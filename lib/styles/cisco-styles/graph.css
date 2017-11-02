@@ -1,0 +1,29 @@
+.cisco-chart .ui.selection.dropdown{
+	box-shadow: 0 -1px 0 0 #c6c7ca inset !important;
+	color: #58585b;
+	font-size: 12px;
+	letter-spacing: 0.7px;
+    border: 0px !important;
+    border-radius: 0px !important;
+} 
+
+.cisco-chart .ui.selection.dropdown .menu>.item{
+	font-size: 12px;
+	letter-spacing: 0.8px;
+}
+.cisco-chart .ui.dropdown .menu .selected.item, .cisco-chart .ui.dropdown.selected{
+	 background: #fbfbfb !important;
+}
+.cisco-chart .ui.selection.active.dropdown,.cisco-chart .ui.selection.active.dropdown .menu{
+	border-color: #dfdfdf !important;
+	border-radius: 0px;
+}
+.cisco-chart .ui.selection.dropdown{
+  padding: .78571429em 0px .78571429em 5px !important;
+}
+.cisco-chart .ui.toggle.checkbox input:checked~.box:before,.cisco-chart  .ui.toggle.checkbox input:checked~label:before {
+    background-color: #049fd9!important;
+}
+.cisco-chart .ui.toggle.checkbox .box:before,.cisco-chart  .ui.toggle.checkbox label:before{
+	background: rgba(0,0,0,.2) !important;
+}

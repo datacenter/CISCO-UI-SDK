@@ -1,0 +1,54 @@
+flow
+=====
+
+Application will have its own component
+  AppComponent1,
+  AppComponent2,
+  AppComponent3,
+
+
+Component Configurations to be loaded from SDK
+  homePageConfig
+  pageConfig
+  tabConfig
+  tableConfig
+
+
+
+
+
+
+homePageConfig
+===============
+{
+  name: "HomePage",
+  type: "page",
+  title: "Home Page",
+  listenForEvents: {
+    "name": "EVENT_NAME",
+    "action": SDK.ACTION.ADD_COMPONENT,
+    "config":
+  }
+  content: [
+    {
+      type: "userdefined",
+      component: AppComponent1,
+    }
+  ]
+}
+
+
+
+
+
+
+ACTIONS
+  ADD_COMPONENT,
+  REMOVE_COMPONENT,
+  RELOAD_COMPONENT,
+  REPLACE_COMPONENT,
+  REFRESH_DATA
+
+EVENTS
+  FORM.OPEN,
+  FORM.CLOSED
